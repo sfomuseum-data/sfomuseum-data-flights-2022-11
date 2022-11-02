@@ -2,10 +2,12 @@
   "id": 1796536057,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2022-11-01",
+    "date:cessation_upper": "2022-11-01",
     "date:inception_lower": "2022-11-01",
     "date:inception_upper": "2022-11-01",
-    "edtf:cessation": "",
-    "edtf:inception": "2022-11-01",
+    "edtf:cessation": "2022-11-01T18:11:31Z",
+    "edtf:inception": "2022-11-01T16:30:00Z",
     "flysfo:actual_timestamp": -1,
     "flysfo:airline": "AS",
     "flysfo:base_airline": "",
@@ -24,10 +26,12 @@
     "geom:longitude": -122.484166,
     "iata:airline": "AS",
     "iata:base_airline": "",
+    "icao:aircraft": "B39M",
     "icao:airline": "ASA",
     "icao:base_airline": "AAL",
     "lbl:latitude": 37.61705,
     "lbl:longitude": -122.380838,
+    "sfomuseum:aircraft_id": 1528104577,
     "sfomuseum:airline_id": 1159283813,
     "sfomuseum:arrival_id": 102527513,
     "sfomuseum:base_flight_id": "20221101-A-AAL-7471",
@@ -39,6 +43,12 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-route",
+      "swim-path",
+      "swim-approach"
+    ],
+    "swim:tail_number": "N918AK",
     "wof:belongsto": [
       1763588121,
       102527513,
@@ -53,6 +63,9 @@
       1763588123,
       102085387
     ],
+    "wof:concordances": {
+      "swim:flight_ref": "17976003"
+    },
     "wof:country": "US",
     "wof:created": 1667405187,
     "wof:geomhash": "3af422147b92e6fa9912d38a57ea404a",
@@ -86,13 +99,14 @@
     ],
     "wof:id": 1796536057,
     "wof:involves": [
+      1528104577,
       102527513,
       102532251,
       1159283813,
       1763588141,
       1159283849
     ],
-    "wof:lastmodified": 1667405187,
+    "wof:lastmodified": 1667410405,
     "wof:name": "AS544 (PDX-SFO)",
     "wof:parent_id": 1763588141,
     "wof:placetype": "custom",
