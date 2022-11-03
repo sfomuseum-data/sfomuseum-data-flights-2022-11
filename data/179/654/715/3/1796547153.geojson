@@ -2,10 +2,12 @@
   "id": 1796547153,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2022-11-02",
+    "date:cessation_upper": "2022-11-02",
     "date:inception_lower": "2022-11-02",
     "date:inception_upper": "2022-11-02",
-    "edtf:cessation": "",
-    "edtf:inception": "2022-11-02",
+    "edtf:cessation": "2022-11-02T21:45:00Z",
+    "edtf:inception": "2022-11-02T18:55:00Z",
     "flysfo:actual_timestamp": -1,
     "flysfo:airline": "SY",
     "flysfo:date": "2022-11-02",
@@ -21,9 +23,11 @@
     "geom:latitude": 35.302341999999996,
     "geom:longitude": -109.843519,
     "iata:airline": "SY",
+    "icao:aircraft": "B738",
     "icao:airline": "SCX",
     "lbl:latitude": 37.61799,
     "lbl:longitude": -122.370943,
+    "sfomuseum:aircraft_id": 1159289871,
     "sfomuseum:airline_id": 1159285227,
     "sfomuseum:arrival_id": 102528591,
     "sfomuseum:departure_id": 102527513,
@@ -34,7 +38,16 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-route",
+      "swim-path",
+      "swim-takeoff"
+    ],
+    "swim:tail_number": "N5209A",
     "wof:belongsto": [],
+    "wof:concordances": {
+      "swim:flight_ref": "18145626"
+    },
     "wof:country": "US",
     "wof:created": 1667492589,
     "wof:geomhash": "15b112f2955ad354f72c3865722bb247",
@@ -45,12 +58,12 @@
     ],
     "wof:id": 1796547153,
     "wof:involves": [
+      1159289871,
       102528591,
       102527513,
-      1159285227,
-      -1
+      1159285227
     ],
-    "wof:lastmodified": 1667492589,
+    "wof:lastmodified": 1667492871,
     "wof:name": "SY3010 (SFO-AFW)",
     "wof:parent_id": -1,
     "wof:placetype": "custom",

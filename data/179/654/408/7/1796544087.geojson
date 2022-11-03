@@ -2,10 +2,12 @@
   "id": 1796544087,
   "type": "Feature",
   "properties": {
-    "date:inception_lower": "2022-11-02",
-    "date:inception_upper": "2022-11-02",
-    "edtf:cessation": "",
-    "edtf:inception": "2022-11-02",
+    "date:cessation_lower": "2022-11-03",
+    "date:cessation_upper": "2022-11-03",
+    "date:inception_lower": "2022-11-03",
+    "date:inception_upper": "2022-11-03",
+    "edtf:cessation": "2022-11-03T06:52:00Z",
+    "edtf:inception": "2022-11-03T01:19:00Z",
     "flysfo:actual_timestamp": -1,
     "flysfo:airline": "SY",
     "flysfo:date": "2022-11-02",
@@ -21,9 +23,11 @@
     "geom:latitude": 32.8024755,
     "geom:longitude": -102.194597,
     "iata:airline": "SY",
+    "icao:aircraft": "B738",
     "icao:airline": "SCX",
     "lbl:latitude": 37.61799,
     "lbl:longitude": -122.370943,
+    "sfomuseum:aircraft_id": 1159289871,
     "sfomuseum:airline_id": 1159285227,
     "sfomuseum:arrival_id": 102527513,
     "sfomuseum:departure_id": 102526153,
@@ -34,7 +38,16 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-route",
+      "swim-path",
+      "swim-approach"
+    ],
+    "swim:tail_number": "N5261A",
     "wof:belongsto": [],
+    "wof:concordances": {
+      "swim:flight_ref": "18090684"
+    },
     "wof:country": "US",
     "wof:created": 1667491818,
     "wof:geomhash": "cc0a83f810de606d1c5f0209a9703f91",
@@ -45,12 +58,12 @@
     ],
     "wof:id": 1796544087,
     "wof:involves": [
-      102527513,
-      102526153,
       1159285227,
-      -1
+      1159289871,
+      102527513,
+      102526153
     ],
-    "wof:lastmodified": 1667491818,
+    "wof:lastmodified": 1667492860,
     "wof:name": "SY3083 (LAL-SFO)",
     "wof:parent_id": -1,
     "wof:placetype": "custom",

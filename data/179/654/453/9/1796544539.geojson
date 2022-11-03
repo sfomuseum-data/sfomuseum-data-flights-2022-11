@@ -2,10 +2,12 @@
   "id": 1796544539,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2022-11-02",
+    "date:cessation_upper": "2022-11-02",
     "date:inception_lower": "2022-11-02",
     "date:inception_upper": "2022-11-02",
-    "edtf:cessation": "",
-    "edtf:inception": "2022-11-02",
+    "edtf:cessation": "2022-11-02T03:57:13Z",
+    "edtf:inception": "2022-11-02T01:43:00Z",
     "flysfo:actual_timestamp": -1,
     "flysfo:airline": "UA",
     "flysfo:base_airline": "",
@@ -53,6 +55,9 @@
       1763588269,
       102085387
     ],
+    "wof:concordances": {
+      "swim:flight_ref": "18020681"
+    },
     "wof:country": "US",
     "wof:created": 1667491932,
     "wof:geomhash": "736fe0d2ebd38878be6950e82908a686",
@@ -92,7 +97,7 @@
       1763588315,
       1159283597
     ],
-    "wof:lastmodified": 1667491932,
+    "wof:lastmodified": 1667492865,
     "wof:name": "UA2390 (DEN-SFO)",
     "wof:parent_id": 1763588315,
     "wof:placetype": "custom",
