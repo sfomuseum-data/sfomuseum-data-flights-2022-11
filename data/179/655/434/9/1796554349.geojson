@@ -2,10 +2,12 @@
   "id": 1796554349,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2022-11-03",
+    "date:cessation_upper": "2022-11-03",
     "date:inception_lower": "2022-11-03",
     "date:inception_upper": "2022-11-03",
-    "edtf:cessation": "",
-    "edtf:inception": "2022-11-03",
+    "edtf:cessation": "2022-11-03T13:13:22Z",
+    "edtf:inception": "2022-11-03T12:10:00Z",
     "flysfo:actual_timestamp": -1,
     "flysfo:airline": "SY",
     "flysfo:date": "2022-11-03",
@@ -21,9 +23,11 @@
     "geom:latitude": 35.861199,
     "geom:longitude": -119.808415,
     "iata:airline": "SY",
+    "icao:aircraft": "B738",
     "icao:airline": "SCX",
     "lbl:latitude": 37.61799,
     "lbl:longitude": -122.370943,
+    "sfomuseum:aircraft_id": 1159289871,
     "sfomuseum:airline_id": 1159285227,
     "sfomuseum:arrival_id": 102530129,
     "sfomuseum:departure_id": 102527513,
@@ -34,7 +38,15 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-route",
+      "swim-path"
+    ],
+    "swim:tail_number": "N5261A",
     "wof:belongsto": [],
+    "wof:concordances": {
+      "swim:flight_ref": "18212924"
+    },
     "wof:country": "US",
     "wof:created": 1667587274,
     "wof:geomhash": "b4d056e1d6e58dcf382167f77162f897",
@@ -45,12 +57,12 @@
     ],
     "wof:id": 1796554349,
     "wof:involves": [
-      102530129,
-      102527513,
       1159285227,
-      -1
+      1159289871,
+      102530129,
+      102527513
     ],
-    "wof:lastmodified": 1667587274,
+    "wof:lastmodified": 1667587571,
     "wof:name": "SY5562 (SFO-SBD)",
     "wof:parent_id": -1,
     "wof:placetype": "custom",
