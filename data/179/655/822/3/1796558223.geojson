@@ -2,10 +2,12 @@
   "id": 1796558223,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2022-11-04",
+    "date:cessation_upper": "2022-11-04",
     "date:inception_lower": "2022-11-04",
     "date:inception_upper": "2022-11-04",
-    "edtf:cessation": "",
-    "edtf:inception": "2022-11-04",
+    "edtf:cessation": "2022-11-04T00:35:45-07:00",
+    "edtf:inception": "2022-11-04T13:40:00Z",
     "flysfo:actual_timestamp": -1,
     "flysfo:airline": "WN",
     "flysfo:date": "2022-11-04",
@@ -21,9 +23,11 @@
     "geom:latitude": 35.780291500000004,
     "geom:longitude": -120.38022649999999,
     "iata:airline": "WN",
+    "icao:aircraft": "B737",
     "icao:airline": "SWA",
     "lbl:latitude": 37.61799,
     "lbl:longitude": -122.370943,
+    "sfomuseum:aircraft_id": 1159289869,
     "sfomuseum:airline_id": 1159285591,
     "sfomuseum:arrival_id": 102527513,
     "sfomuseum:departure_id": 102533795,
@@ -34,6 +38,11 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-route",
+      "swim-approach"
+    ],
+    "swim:tail_number": "N432WN",
     "wof:belongsto": [
       1763588121,
       102527513,
@@ -48,6 +57,9 @@
       1763588175,
       102085387
     ],
+    "wof:concordances": {
+      "swim:flight_ref": "18227683"
+    },
     "wof:country": "US",
     "wof:created": 1667664691,
     "wof:geomhash": "f16008bc2ad68c6d1bc593247c6c74a9",
@@ -81,12 +93,13 @@
     ],
     "wof:id": 1796558223,
     "wof:involves": [
+      1159289869,
       102527513,
       102533795,
       1159285591,
       1763588193
     ],
-    "wof:lastmodified": 1667664691,
+    "wof:lastmodified": 1667665746,
     "wof:name": "WN580 (LAX-SFO)",
     "wof:parent_id": 1763588193,
     "wof:placetype": "custom",

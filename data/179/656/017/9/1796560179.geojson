@@ -2,10 +2,12 @@
   "id": 1796560179,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2022-11-05",
+    "date:cessation_upper": "2022-11-05",
     "date:inception_lower": "2022-11-04",
     "date:inception_upper": "2022-11-04",
-    "edtf:cessation": "",
-    "edtf:inception": "2022-11-04",
+    "edtf:cessation": "2022-11-05T00:35:00Z",
+    "edtf:inception": "2022-11-04T23:25:00Z",
     "flysfo:actual_timestamp": -1,
     "flysfo:airline": "AS",
     "flysfo:base_airline": "",
@@ -53,6 +55,9 @@
       1763588123,
       102085387
     ],
+    "wof:concordances": {
+      "swim:flight_ref": "18282178"
+    },
     "wof:country": "US",
     "wof:created": 1667665186,
     "wof:geomhash": "ccf694144ef1f7a2823fe9bc7c6018ea",
@@ -92,7 +97,7 @@
       1763588131,
       1159283849
     ],
-    "wof:lastmodified": 1667665186,
+    "wof:lastmodified": 1667665733,
     "wof:name": "AS748 (SFO-LAS)",
     "wof:parent_id": 1763588131,
     "wof:placetype": "custom",

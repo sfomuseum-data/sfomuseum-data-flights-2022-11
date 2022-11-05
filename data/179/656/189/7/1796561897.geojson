@@ -2,10 +2,12 @@
   "id": 1796561897,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2022-11-05",
+    "date:cessation_upper": "2022-11-05",
     "date:inception_lower": "2022-11-04",
     "date:inception_upper": "2022-11-04",
-    "edtf:cessation": "",
-    "edtf:inception": "2022-11-04",
+    "edtf:cessation": "2022-11-05T00:36:11Z",
+    "edtf:inception": "2022-11-04T23:31:00Z",
     "flysfo:actual_timestamp": -1,
     "flysfo:airline": "UA",
     "flysfo:base_airline": "",
@@ -24,10 +26,12 @@
     "geom:longitude": -122.79198650000001,
     "iata:airline": "UA",
     "iata:base_airline": "",
+    "icao:aircraft": "A319",
     "icao:airline": "UAL",
     "icao:base_airline": "AVA",
     "lbl:latitude": 37.620058,
     "lbl:longitude": -122.38824,
+    "sfomuseum:aircraft_id": 1159289407,
     "sfomuseum:airline_id": 1159285413,
     "sfomuseum:arrival_id": 102533927,
     "sfomuseum:base_flight_id": "20221104-D-AVA-2068",
@@ -39,6 +43,11 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-route",
+      "swim-path"
+    ],
+    "swim:tail_number": "N832UA",
     "wof:belongsto": [
       1763588121,
       102527513,
@@ -53,6 +62,10 @@
       1763588269,
       102085387
     ],
+    "wof:concordances": {
+      "swim:flight_ref": "18286195",
+      "swim:gufi": "KO78708600"
+    },
     "wof:country": "US",
     "wof:created": 1667665619,
     "wof:geomhash": "ac29143dee46faf8dc4d82fa5cfc7601",
@@ -90,9 +103,10 @@
       102527513,
       1159285413,
       1763588311,
-      1159285749
+      1159285749,
+      1159289407
     ],
-    "wof:lastmodified": 1667665619,
+    "wof:lastmodified": 1667665745,
     "wof:name": "UA571 (SFO-EUG)",
     "wof:parent_id": 1763588311,
     "wof:placetype": "custom",

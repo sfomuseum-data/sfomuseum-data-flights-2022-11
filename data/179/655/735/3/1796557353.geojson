@@ -2,10 +2,12 @@
   "id": 1796557353,
   "type": "Feature",
   "properties": {
-    "date:inception_lower": "2022-11-04",
-    "date:inception_upper": "2022-11-04",
-    "edtf:cessation": "",
-    "edtf:inception": "2022-11-04",
+    "date:cessation_lower": "2022-11-04",
+    "date:cessation_upper": "2022-11-04",
+    "date:inception_lower": "1970-01-01",
+    "date:inception_upper": "1970-01-01",
+    "edtf:cessation": "2022-11-04T05:18:06-07:00",
+    "edtf:inception": "1970-01-01T00:00:00Z",
     "flysfo:actual_timestamp": -1,
     "flysfo:airline": "DL",
     "flysfo:base_airline": "",
@@ -24,10 +26,12 @@
     "geom:longitude": -103.4008145,
     "iata:airline": "DL",
     "iata:base_airline": "",
+    "icao:aircraft": "B753",
     "icao:airline": "DAL",
     "icao:base_airline": "ARG",
     "lbl:latitude": 37.614944,
     "lbl:longitude": -122.383123,
+    "sfomuseum:aircraft_id": 1159289945,
     "sfomuseum:airline_id": 1159284261,
     "sfomuseum:arrival_id": 102527513,
     "sfomuseum:base_flight_id": "20221104-A-ARG-7054",
@@ -39,6 +43,10 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-approach"
+    ],
+    "swim:tail_number": "N594NW",
     "wof:belongsto": [
       1763588121,
       102527513,
@@ -90,9 +98,10 @@
       102526927,
       1159284261,
       1763588237,
-      1159283531
+      1159283531,
+      1159289945
     ],
-    "wof:lastmodified": 1667664466,
+    "wof:lastmodified": 1667665740,
     "wof:name": "DL824 (ATL-SFO)",
     "wof:parent_id": 1763588237,
     "wof:placetype": "custom",

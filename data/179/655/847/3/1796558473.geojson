@@ -2,10 +2,12 @@
   "id": 1796558473,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2022-11-04",
+    "date:cessation_upper": "2022-11-04",
     "date:inception_lower": "2022-11-04",
     "date:inception_upper": "2022-11-04",
-    "edtf:cessation": "",
-    "edtf:inception": "2022-11-04",
+    "edtf:cessation": "2022-11-04T01:53:31-07:00",
+    "edtf:inception": "2022-11-04T10:48:00Z",
     "flysfo:actual_timestamp": -1,
     "flysfo:airline": "UA",
     "flysfo:date": "2022-11-04",
@@ -21,9 +23,11 @@
     "geom:latitude": 32.795441,
     "geom:longitude": -102.4509355,
     "iata:airline": "UA",
+    "icao:aircraft": "B739",
     "icao:airline": "UAL",
     "lbl:latitude": 37.619367,
     "lbl:longitude": -122.38387,
+    "sfomuseum:aircraft_id": 1377564285,
     "sfomuseum:airline_id": 1159285413,
     "sfomuseum:arrival_id": 102527513,
     "sfomuseum:departure_id": 102533243,
@@ -34,6 +38,12 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-route",
+      "swim-path",
+      "swim-approach"
+    ],
+    "swim:tail_number": "N75425",
     "wof:belongsto": [
       1763588121,
       102527513,
@@ -48,6 +58,10 @@
       1763588269,
       102085387
     ],
+    "wof:concordances": {
+      "swim:flight_ref": "18215195",
+      "swim:gufi": "KR24732600"
+    },
     "wof:country": "US",
     "wof:created": 1667664755,
     "wof:geomhash": "e5ae5d1ea61206da1f1e1104d6bc1bb7",
@@ -81,12 +95,13 @@
     ],
     "wof:id": 1796558473,
     "wof:involves": [
+      1377564285,
       102527513,
       102533243,
       1159285413,
       1763588353
     ],
-    "wof:lastmodified": 1667664755,
+    "wof:lastmodified": 1667665749,
     "wof:name": "UA1881 (TPA-SFO)",
     "wof:parent_id": 1763588353,
     "wof:placetype": "custom",
