@@ -2,10 +2,12 @@
   "id": 1796565271,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2022-11-05",
+    "date:cessation_upper": "2022-11-05",
     "date:inception_lower": "2022-11-05",
     "date:inception_upper": "2022-11-05",
-    "edtf:cessation": "",
-    "edtf:inception": "2022-11-05",
+    "edtf:cessation": "2022-11-05T23:20:00Z",
+    "edtf:inception": "2022-11-05T22:13:00Z",
     "flysfo:actual_timestamp": -1,
     "flysfo:airline": "UA",
     "flysfo:base_airline": "",
@@ -24,10 +26,12 @@
     "geom:longitude": -119.4384925,
     "iata:airline": "UA",
     "iata:base_airline": "",
+    "icao:aircraft": "B739",
     "icao:airline": "UAL",
     "icao:base_airline": "ACA",
     "lbl:latitude": 37.619425,
     "lbl:longitude": -122.384028,
+    "sfomuseum:aircraft_id": 1377564285,
     "sfomuseum:airline_id": 1159285413,
     "sfomuseum:arrival_id": 102527513,
     "sfomuseum:base_flight_id": "20221105-A-ACA-3779",
@@ -53,6 +57,9 @@
       1763588269,
       102085387
     ],
+    "wof:concordances": {
+      "swim:flight_ref": "18353812"
+    },
     "wof:country": "US",
     "wof:created": 1667751130,
     "wof:geomhash": "a35a6e87f0ae0f1f716f88067ee31aa3",
@@ -86,13 +93,14 @@
     ],
     "wof:id": 1796565271,
     "wof:involves": [
+      1159283597,
+      1377564285,
       102527513,
       102533591,
       1159285413,
-      1763588357,
-      1159283597
+      1763588357
     ],
-    "wof:lastmodified": 1667751130,
+    "wof:lastmodified": 1667752046,
     "wof:name": "UA2070 (PSP-SFO)",
     "wof:parent_id": 1763588357,
     "wof:placetype": "custom",
