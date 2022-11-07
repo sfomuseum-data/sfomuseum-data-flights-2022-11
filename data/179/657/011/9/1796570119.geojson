@@ -2,10 +2,12 @@
   "id": 1796570119,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2022-11-06",
+    "date:cessation_upper": "2022-11-06",
     "date:inception_lower": "2022-11-06",
     "date:inception_upper": "2022-11-06",
-    "edtf:cessation": "",
-    "edtf:inception": "2022-11-06",
+    "edtf:cessation": "2022-11-06T12:59:06-08:00",
+    "edtf:inception": "2022-11-06T23:15:00Z",
     "flysfo:actual_timestamp": -1,
     "flysfo:airline": "AS",
     "flysfo:base_airline": "",
@@ -24,10 +26,12 @@
     "geom:longitude": -99.9123225,
     "iata:airline": "AS",
     "iata:base_airline": "",
+    "icao:aircraft": "A21N",
     "icao:airline": "ASA",
     "icao:base_airline": "AAL",
     "lbl:latitude": 37.617532,
     "lbl:longitude": -122.382384,
+    "sfomuseum:aircraft_id": 1377564297,
     "sfomuseum:airline_id": 1159283813,
     "sfomuseum:arrival_id": 102527513,
     "sfomuseum:base_flight_id": "20221106-A-AAL-7476",
@@ -39,6 +43,12 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-route",
+      "swim-path",
+      "swim-approach"
+    ],
+    "swim:tail_number": "N925VA",
     "wof:belongsto": [
       1763588121,
       102527513,
@@ -53,6 +63,9 @@
       1763588123,
       102085387
     ],
+    "wof:concordances": {
+      "swim:flight_ref": "18434492"
+    },
     "wof:country": "US",
     "wof:created": 1667837159,
     "wof:geomhash": "376248592ab7850cfb9a479529cc5caf",
@@ -86,13 +99,14 @@
     ],
     "wof:id": 1796570119,
     "wof:involves": [
+      1377564297,
       102527513,
       102528817,
       1159283813,
       1763588157,
       1159283849
     ],
-    "wof:lastmodified": 1667837159,
+    "wof:lastmodified": 1667838597,
     "wof:name": "AS1080 (IAD-SFO)",
     "wof:parent_id": 1763588157,
     "wof:placetype": "custom",

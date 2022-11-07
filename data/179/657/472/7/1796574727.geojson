@@ -2,10 +2,12 @@
   "id": 1796574727,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2022-11-07",
+    "date:cessation_upper": "2022-11-07",
     "date:inception_lower": "2022-11-06",
     "date:inception_upper": "2022-11-06",
-    "edtf:cessation": "",
-    "edtf:inception": "2022-11-06",
+    "edtf:cessation": "2022-11-07T00:57:00Z",
+    "edtf:inception": "2022-11-06T23:05:00Z",
     "flysfo:actual_timestamp": -1,
     "flysfo:airline": "WN",
     "flysfo:date": "2022-11-06",
@@ -48,6 +50,9 @@
       1763588175,
       102085387
     ],
+    "wof:concordances": {
+      "swim:flight_ref": "18440748"
+    },
     "wof:country": "US",
     "wof:created": 1667838360,
     "wof:geomhash": "976937653dbac6c9c27dd23670ba89bf",
@@ -86,7 +91,7 @@
       1159285591,
       1763588191
     ],
-    "wof:lastmodified": 1667838360,
+    "wof:lastmodified": 1667838609,
     "wof:name": "WN3029 (SFO-DEN)",
     "wof:parent_id": 1763588191,
     "wof:placetype": "custom",

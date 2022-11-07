@@ -2,10 +2,12 @@
   "id": 1796571787,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2022-11-06",
+    "date:cessation_upper": "2022-11-06",
     "date:inception_lower": "2022-11-06",
     "date:inception_upper": "2022-11-06",
-    "edtf:cessation": "",
-    "edtf:inception": "2022-11-06",
+    "edtf:cessation": "2022-11-06T14:48:39Z",
+    "edtf:inception": "2022-11-06T09:50:00Z",
     "flysfo:actual_timestamp": -1,
     "flysfo:airline": "UA",
     "flysfo:base_airline": "",
@@ -39,6 +41,9 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-path"
+    ],
     "wof:belongsto": [
       1763588121,
       102527513,
@@ -53,6 +58,9 @@
       1763588269,
       102085387
     ],
+    "wof:concordances": {
+      "swim:flight_ref": "18389903"
+    },
     "wof:country": "US",
     "wof:created": 1667837600,
     "wof:geomhash": "46fccc0e56242535ccfd5ecb278f9a75",
@@ -92,7 +100,7 @@
       1763588347,
       1159286015
     ],
-    "wof:lastmodified": 1667837600,
+    "wof:lastmodified": 1667838616,
     "wof:name": "UA1746 (LIH-SFO)",
     "wof:parent_id": 1763588347,
     "wof:placetype": "custom",

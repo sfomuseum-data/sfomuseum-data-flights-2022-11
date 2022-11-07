@@ -2,10 +2,12 @@
   "id": 1796570671,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2022-11-06",
+    "date:cessation_upper": "2022-11-06",
     "date:inception_lower": "2022-11-06",
     "date:inception_upper": "2022-11-06",
-    "edtf:cessation": "",
-    "edtf:inception": "2022-11-06",
+    "edtf:cessation": "2022-11-06T05:29:39-08:00",
+    "edtf:inception": "2022-11-06T16:19:00Z",
     "flysfo:actual_timestamp": -1,
     "flysfo:airline": "DL",
     "flysfo:date": "2022-11-06",
@@ -21,9 +23,11 @@
     "geom:latitude": 33.0247425,
     "geom:longitude": -101.83923999999999,
     "iata:airline": "DL",
+    "icao:aircraft": "B752",
     "icao:airline": "DAL",
     "lbl:latitude": 37.61799,
     "lbl:longitude": -122.370943,
+    "sfomuseum:aircraft_id": 1159289939,
     "sfomuseum:airline_id": 1159284261,
     "sfomuseum:arrival_id": 102527513,
     "sfomuseum:departure_id": 102533657,
@@ -34,7 +38,17 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-route",
+      "swim-path",
+      "swim-approach"
+    ],
+    "swim:tail_number": "N649DL",
     "wof:belongsto": [],
+    "wof:concordances": {
+      "swim:flight_ref": "18409357",
+      "swim:gufi": "KJ54662100"
+    },
     "wof:country": "US",
     "wof:created": 1667837307,
     "wof:geomhash": "5fe9a4073f558f5d433cae4f846ab71e",
@@ -45,12 +59,12 @@
     ],
     "wof:id": 1796570671,
     "wof:involves": [
+      1159289939,
       102527513,
       102533657,
-      1159284261,
-      -1
+      1159284261
     ],
-    "wof:lastmodified": 1667837307,
+    "wof:lastmodified": 1667838601,
     "wof:name": "DL8941 (MCO-SFO)",
     "wof:parent_id": -1,
     "wof:placetype": "custom",
