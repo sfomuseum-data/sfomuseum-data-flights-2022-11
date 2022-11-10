@@ -2,10 +2,12 @@
   "id": 1796592379,
   "type": "Feature",
   "properties": {
-    "date:inception_lower": "2022-11-09",
-    "date:inception_upper": "2022-11-09",
-    "edtf:cessation": "",
-    "edtf:inception": "2022-11-09",
+    "date:cessation_lower": "2022-11-09",
+    "date:cessation_upper": "2022-11-09",
+    "date:inception_lower": "2022-11-10",
+    "date:inception_upper": "2022-11-10",
+    "edtf:cessation": "2022-11-09T14:27:48-08:00",
+    "edtf:inception": "2022-11-10T04:14:00Z",
     "flysfo:actual_timestamp": -1,
     "flysfo:airline": "UA",
     "flysfo:date": "2022-11-09",
@@ -21,9 +23,11 @@
     "geom:latitude": 38.7414645,
     "geom:longitude": -113.521581,
     "iata:airline": "UA",
+    "icao:aircraft": "B772",
     "icao:airline": "UAL",
     "lbl:latitude": 37.61799,
     "lbl:longitude": -122.370943,
+    "sfomuseum:aircraft_id": 1159289985,
     "sfomuseum:airline_id": 1159285413,
     "sfomuseum:arrival_id": 102527513,
     "sfomuseum:departure_id": 102531189,
@@ -34,7 +38,14 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-approach"
+    ],
+    "swim:tail_number": "N784UA",
     "wof:belongsto": [],
+    "wof:concordances": {
+      "swim:gufi": "KD03401500"
+    },
     "wof:country": "US",
     "wof:created": 1668096774,
     "wof:geomhash": "736fe0d2ebd38878be6950e82908a686",
@@ -45,12 +56,12 @@
     ],
     "wof:id": 1796592379,
     "wof:involves": [
+      1159289985,
       102527513,
       102531189,
-      1159285413,
-      -1
+      1159285413
     ],
-    "wof:lastmodified": 1668096774,
+    "wof:lastmodified": 1668097738,
     "wof:name": "UA2757 (DEN-SFO)",
     "wof:parent_id": -1,
     "wof:placetype": "custom",
