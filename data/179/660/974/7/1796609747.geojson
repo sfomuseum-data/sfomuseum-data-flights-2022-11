@@ -2,10 +2,12 @@
   "id": 1796609747,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2022-11-11",
+    "date:cessation_upper": "2022-11-11",
     "date:inception_lower": "2022-11-11",
     "date:inception_upper": "2022-11-11",
-    "edtf:cessation": "",
-    "edtf:inception": "2022-11-11",
+    "edtf:cessation": "2022-11-11T07:15:25Z",
+    "edtf:inception": "2022-11-11T06:22:00Z",
     "flysfo:actual_timestamp": -1,
     "flysfo:airline": "AS",
     "flysfo:base_airline": "",
@@ -24,10 +26,12 @@
     "geom:longitude": -120.38022649999999,
     "iata:airline": "AS",
     "iata:base_airline": "",
+    "icao:aircraft": "B739",
     "icao:airline": "ASA",
     "icao:base_airline": "BAW",
     "lbl:latitude": 37.617092,
     "lbl:longitude": -122.381656,
+    "sfomuseum:aircraft_id": 1377564285,
     "sfomuseum:airline_id": 1159283813,
     "sfomuseum:arrival_id": 102533795,
     "sfomuseum:base_flight_id": "20221111-D-BAW-2956",
@@ -39,6 +43,10 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-takeoff"
+    ],
+    "swim:tail_number": "N464AS",
     "wof:belongsto": [
       1763588121,
       102527513,
@@ -53,6 +61,9 @@
       1763588123,
       102085387
     ],
+    "wof:concordances": {
+      "swim:flight_ref": "18794116"
+    },
     "wof:country": "US",
     "wof:created": 1668269995,
     "wof:geomhash": "602be2a828e3460cadf44be5b1c2e36b",
@@ -86,13 +97,14 @@
     ],
     "wof:id": 1796609747,
     "wof:involves": [
+      1159284021,
+      1377564285,
       102533795,
       102527513,
       1159283813,
-      1763588131,
-      1159284021
+      1763588131
     ],
-    "wof:lastmodified": 1668269995,
+    "wof:lastmodified": 1668270589,
     "wof:name": "AS336 (SFO-LAX)",
     "wof:parent_id": 1763588131,
     "wof:placetype": "custom",

@@ -2,10 +2,12 @@
   "id": 1796608217,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2022-11-11",
+    "date:cessation_upper": "2022-11-11",
     "date:inception_lower": "2022-11-11",
     "date:inception_upper": "2022-11-11",
-    "edtf:cessation": "",
-    "edtf:inception": "2022-11-11",
+    "edtf:cessation": "2022-11-11T02:40:07-08:00",
+    "edtf:inception": "2022-11-11T13:46:00Z",
     "flysfo:actual_timestamp": -1,
     "flysfo:airline": "UA",
     "flysfo:date": "2022-11-11",
@@ -21,9 +23,11 @@
     "geom:latitude": 36.864041,
     "geom:longitude": -101.15226200000001,
     "iata:airline": "UA",
+    "icao:aircraft": "B752",
     "icao:airline": "UAL",
     "lbl:latitude": 37.61799,
     "lbl:longitude": -122.370943,
+    "sfomuseum:aircraft_id": 1159289939,
     "sfomuseum:airline_id": 1159285413,
     "sfomuseum:arrival_id": 102527513,
     "sfomuseum:departure_id": 102527849,
@@ -34,7 +38,16 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-route",
+      "swim-path",
+      "swim-approach"
+    ],
+    "swim:tail_number": "N34131",
     "wof:belongsto": [],
+    "wof:concordances": {
+      "swim:flight_ref": "18820674"
+    },
     "wof:country": "US",
     "wof:created": 1668269608,
     "wof:geomhash": "5effdcb6f19e0645c7e31e4e1e42645d",
@@ -45,12 +58,12 @@
     ],
     "wof:id": 1796608217,
     "wof:involves": [
-      102527513,
       102527849,
       1159285413,
-      -1
+      1159289939,
+      102527513
     ],
-    "wof:lastmodified": 1668269608,
+    "wof:lastmodified": 1668270585,
     "wof:name": "UA2754 (GSO-SFO)",
     "wof:parent_id": -1,
     "wof:placetype": "custom",

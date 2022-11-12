@@ -2,10 +2,12 @@
   "id": 1796610077,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2022-11-11",
+    "date:cessation_upper": "2022-11-11",
     "date:inception_lower": "2022-11-11",
     "date:inception_upper": "2022-11-11",
-    "edtf:cessation": "",
-    "edtf:inception": "2022-11-11",
+    "edtf:cessation": "2022-11-11T03:21:30Z",
+    "edtf:inception": "2022-11-11T02:30:00Z",
     "flysfo:actual_timestamp": -1,
     "flysfo:airline": "DL",
     "flysfo:base_airline": "",
@@ -53,6 +55,9 @@
       1763588175,
       102085387
     ],
+    "wof:concordances": {
+      "swim:flight_ref": "18784989"
+    },
     "wof:country": "US",
     "wof:created": 1668270092,
     "wof:geomhash": "602be2a828e3460cadf44be5b1c2e36b",
@@ -92,7 +97,7 @@
       1763588255,
       1159284153
     ],
-    "wof:lastmodified": 1668270092,
+    "wof:lastmodified": 1668270572,
     "wof:name": "DL2432 (SFO-LAX)",
     "wof:parent_id": 1763588255,
     "wof:placetype": "custom",

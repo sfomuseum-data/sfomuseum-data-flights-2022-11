@@ -2,10 +2,12 @@
   "id": 1796609661,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2022-11-11",
+    "date:cessation_upper": "2022-11-11",
     "date:inception_lower": "2022-11-11",
     "date:inception_upper": "2022-11-11",
-    "edtf:cessation": "",
-    "edtf:inception": "2022-11-11",
+    "edtf:cessation": "2022-11-11T22:33:19Z",
+    "edtf:inception": "2022-11-11T02:51:53-08:00",
     "flysfo:actual_timestamp": -1,
     "flysfo:airline": "AS",
     "flysfo:base_airline": "",
@@ -24,10 +26,12 @@
     "geom:longitude": -105.1326535,
     "iata:airline": "AS",
     "iata:base_airline": "",
+    "icao:aircraft": "A21N",
     "icao:airline": "ASA",
     "icao:base_airline": "QTR",
     "lbl:latitude": 37.617532,
     "lbl:longitude": -122.382384,
+    "sfomuseum:aircraft_id": 1377564297,
     "sfomuseum:airline_id": 1159283813,
     "sfomuseum:arrival_id": 102533631,
     "sfomuseum:base_flight_id": "20221111-D-QTR-3395",
@@ -39,6 +43,12 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-route",
+      "swim-path",
+      "swim-takeoff"
+    ],
+    "swim:tail_number": "N921VA",
     "wof:belongsto": [
       1763588121,
       102527513,
@@ -53,6 +63,9 @@
       1763588123,
       102085387
     ],
+    "wof:concordances": {
+      "swim:flight_ref": "18836893"
+    },
     "wof:country": "US",
     "wof:created": 1668269972,
     "wof:geomhash": "7a75cc81bf790964b92a4927d3978f50",
@@ -86,13 +99,14 @@
     ],
     "wof:id": 1796609661,
     "wof:involves": [
+      1377564297,
       102533631,
       102527513,
       1159283813,
       1763588157,
       1159286153
     ],
-    "wof:lastmodified": 1668269972,
+    "wof:lastmodified": 1668270589,
     "wof:name": "AS1208 (SFO-ORD)",
     "wof:parent_id": 1763588157,
     "wof:placetype": "custom",

@@ -2,10 +2,12 @@
   "id": 1796608821,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2022-11-11",
+    "date:cessation_upper": "2022-11-11",
     "date:inception_lower": "2022-11-11",
     "date:inception_upper": "2022-11-11",
-    "edtf:cessation": "",
-    "edtf:inception": "2022-11-11",
+    "edtf:cessation": "2022-11-11T17:53:00Z",
+    "edtf:inception": "2022-11-11T15:09:00Z",
     "flysfo:actual_timestamp": -1,
     "flysfo:airline": "AA",
     "flysfo:base_airline": "",
@@ -24,10 +26,12 @@
     "geom:longitude": -109.1282865,
     "iata:airline": "AA",
     "iata:base_airline": "",
+    "icao:aircraft": "A321",
     "icao:airline": "AAL",
     "icao:base_airline": "GFA",
     "lbl:latitude": 37.61799,
     "lbl:longitude": -122.370943,
+    "sfomuseum:aircraft_id": 1159289411,
     "sfomuseum:airline_id": 1159283849,
     "sfomuseum:arrival_id": 102527781,
     "sfomuseum:base_flight_id": "20221111-D-GFA-4309",
@@ -39,6 +43,12 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-route",
+      "swim-path",
+      "swim-takeoff"
+    ],
+    "swim:tail_number": "N163AA",
     "wof:belongsto": [
       1763588121,
       102527513,
@@ -53,6 +63,10 @@
       1763588175,
       102085387
     ],
+    "wof:concordances": {
+      "swim:flight_ref": "18817152",
+      "swim:gufi": "KO49844600"
+    },
     "wof:country": "US",
     "wof:created": 1668269757,
     "wof:geomhash": "7e0fafbac3c89ec6b37ca9bdb4d05550",
@@ -86,13 +100,14 @@
     ],
     "wof:id": 1796608821,
     "wof:involves": [
-      102527781,
       102527513,
       1159283849,
       1763588219,
-      1159284467
+      1159284467,
+      1159289411,
+      102527781
     ],
-    "wof:lastmodified": 1668269757,
+    "wof:lastmodified": 1668270587,
     "wof:name": "AA2904 (SFO-TUL)",
     "wof:parent_id": 1763588219,
     "wof:placetype": "custom",
