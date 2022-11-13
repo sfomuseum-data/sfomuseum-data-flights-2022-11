@@ -2,10 +2,12 @@
   "id": 1796616325,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2022-11-12",
+    "date:cessation_upper": "2022-11-12",
     "date:inception_lower": "2022-11-12",
     "date:inception_upper": "2022-11-12",
-    "edtf:cessation": "",
-    "edtf:inception": "2022-11-12",
+    "edtf:cessation": "2022-11-12T20:51:23Z",
+    "edtf:inception": "2022-11-12T17:53:00Z",
     "flysfo:actual_timestamp": -1,
     "flysfo:airline": "AS",
     "flysfo:base_airline": "",
@@ -24,10 +26,12 @@
     "geom:longitude": -109.610733,
     "iata:airline": "AS",
     "iata:base_airline": "",
+    "icao:aircraft": "B739",
     "icao:airline": "ASA",
     "icao:base_airline": "SIA",
     "lbl:latitude": 37.617101,
     "lbl:longitude": -122.382233,
+    "sfomuseum:aircraft_id": 1377564285,
     "sfomuseum:airline_id": 1159283813,
     "sfomuseum:arrival_id": 102525799,
     "sfomuseum:base_flight_id": "20221112-D-SIA-1370",
@@ -39,6 +43,12 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-route",
+      "swim-path",
+      "swim-takeoff"
+    ],
+    "swim:tail_number": "N494AS",
     "wof:belongsto": [
       1763588121,
       102527513,
@@ -53,6 +63,9 @@
       1763588123,
       102085387
     ],
+    "wof:concordances": {
+      "swim:flight_ref": "18913578"
+    },
     "wof:country": "US",
     "wof:created": 1668356332,
     "wof:geomhash": "a08c5b1a6c329f228ec453404f254a51",
@@ -86,13 +99,14 @@
     ],
     "wof:id": 1796616325,
     "wof:involves": [
+      1763588127,
+      1159286259,
+      1377564285,
       102525799,
       102527513,
-      1159283813,
-      1763588127,
-      1159286259
+      1159283813
     ],
-    "wof:lastmodified": 1668356332,
+    "wof:lastmodified": 1668356893,
     "wof:name": "AS1310 (SFO-DAL)",
     "wof:parent_id": 1763588127,
     "wof:placetype": "custom",

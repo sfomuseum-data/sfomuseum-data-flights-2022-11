@@ -2,10 +2,12 @@
   "id": 1796615543,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2022-11-13",
+    "date:cessation_upper": "2022-11-13",
     "date:inception_lower": "2022-11-12",
     "date:inception_upper": "2022-11-12",
-    "edtf:cessation": "",
-    "edtf:inception": "2022-11-12",
+    "edtf:cessation": "2022-11-13T09:30:54Z",
+    "edtf:inception": "2022-11-12T21:45:00Z",
     "flysfo:actual_timestamp": -1,
     "flysfo:airline": "OZ",
     "flysfo:date": "2022-11-12",
@@ -21,9 +23,11 @@
     "geom:latitude": 37.535978,
     "geom:longitude": 2.1453445,
     "iata:airline": "OZ",
+    "icao:aircraft": "B744",
     "icao:airline": "AAR",
     "lbl:latitude": 37.61799,
     "lbl:longitude": -122.370943,
+    "sfomuseum:aircraft_id": 1159289915,
     "sfomuseum:airline_id": 1159283917,
     "sfomuseum:arrival_id": 102556451,
     "sfomuseum:departure_id": 102527513,
@@ -34,7 +38,16 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-route",
+      "swim-path",
+      "swim-takeoff"
+    ],
+    "swim:tail_number": "HL7436",
     "wof:belongsto": [],
+    "wof:concordances": {
+      "swim:flight_ref": "18990448"
+    },
     "wof:country": "US",
     "wof:created": 1668356135,
     "wof:geomhash": "76fab8ba90cc172f777e745d124625d2",
@@ -45,12 +58,12 @@
     ],
     "wof:id": 1796615543,
     "wof:involves": [
+      1159289915,
       102556451,
       102527513,
-      1159283917,
-      -1
+      1159283917
     ],
-    "wof:lastmodified": 1668356135,
+    "wof:lastmodified": 1668356902,
     "wof:name": "OZ283 (SFO-ICN)",
     "wof:parent_id": -1,
     "wof:placetype": "custom",

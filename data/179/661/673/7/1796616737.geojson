@@ -2,10 +2,12 @@
   "id": 1796616737,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2022-11-12",
+    "date:cessation_upper": "2022-11-12",
     "date:inception_lower": "2022-11-12",
     "date:inception_upper": "2022-11-12",
-    "edtf:cessation": "",
-    "edtf:inception": "2022-11-12",
+    "edtf:cessation": "2022-11-12T21:30:00Z",
+    "edtf:inception": "2022-11-12T17:38:00Z",
     "flysfo:actual_timestamp": -1,
     "flysfo:airline": "DL",
     "flysfo:date": "2022-11-12",
@@ -21,9 +23,11 @@
     "geom:latitude": 39.512417,
     "geom:longitude": -102.103286,
     "iata:airline": "DL",
+    "icao:aircraft": "B752",
     "icao:airline": "DAL",
     "lbl:latitude": 37.61799,
     "lbl:longitude": -122.370943,
+    "sfomuseum:aircraft_id": 1159289939,
     "sfomuseum:airline_id": 1159284261,
     "sfomuseum:arrival_id": 102534019,
     "sfomuseum:departure_id": 102527513,
@@ -34,7 +38,17 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-route",
+      "swim-path",
+      "swim-takeoff"
+    ],
+    "swim:tail_number": "N651DL",
     "wof:belongsto": [],
+    "wof:concordances": {
+      "swim:flight_ref": "18911286",
+      "swim:gufi": "KO58247700"
+    },
     "wof:country": "US",
     "wof:created": 1668356446,
     "wof:geomhash": "f65caf98d316e6ee4a43fdc3ee688d07",
@@ -45,12 +59,12 @@
     ],
     "wof:id": 1796616737,
     "wof:involves": [
+      1159289939,
       102534019,
       102527513,
-      1159284261,
-      -1
+      1159284261
     ],
-    "wof:lastmodified": 1668356446,
+    "wof:lastmodified": 1668356894,
     "wof:name": "DL8923 (SFO-CLE)",
     "wof:parent_id": -1,
     "wof:placetype": "custom",
