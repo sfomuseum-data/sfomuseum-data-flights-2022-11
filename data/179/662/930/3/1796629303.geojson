@@ -2,10 +2,12 @@
   "id": 1796629303,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2022-11-14",
+    "date:cessation_upper": "2022-11-14",
     "date:inception_lower": "2022-11-14",
     "date:inception_upper": "2022-11-14",
-    "edtf:cessation": "",
-    "edtf:inception": "2022-11-14",
+    "edtf:cessation": "2022-11-14T08:03:00Z",
+    "edtf:inception": "2022-11-14T04:36:00Z",
     "flysfo:actual_timestamp": -1,
     "flysfo:airline": "AA",
     "flysfo:base_airline": "",
@@ -53,6 +55,9 @@
       1763588175,
       102085387
     ],
+    "wof:concordances": {
+      "swim:flight_ref": "19026214"
+    },
     "wof:country": "US",
     "wof:created": 1668528097,
     "wof:geomhash": "865973335526f09b753756c305bf4946",
@@ -92,7 +97,7 @@
       1763588229,
       1159285043
     ],
-    "wof:lastmodified": 1668528097,
+    "wof:lastmodified": 1668529731,
     "wof:name": "AA1069 (DFW-SFO)",
     "wof:parent_id": 1763588229,
     "wof:placetype": "custom",

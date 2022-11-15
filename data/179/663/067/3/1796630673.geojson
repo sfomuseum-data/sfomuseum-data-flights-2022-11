@@ -2,10 +2,12 @@
   "id": 1796630673,
   "type": "Feature",
   "properties": {
-    "date:inception_lower": "2022-11-14",
-    "date:inception_upper": "2022-11-14",
-    "edtf:cessation": "",
-    "edtf:inception": "2022-11-14",
+    "date:cessation_lower": "2022-11-15",
+    "date:cessation_upper": "2022-11-15",
+    "date:inception_lower": "2022-11-15",
+    "date:inception_upper": "2022-11-15",
+    "edtf:cessation": "2022-11-14T16:28:23-08:00",
+    "edtf:inception": "2022-11-15T02:39:00Z",
     "flysfo:actual_timestamp": -1,
     "flysfo:airline": "DL",
     "flysfo:base_airline": "",
@@ -24,10 +26,12 @@
     "geom:longitude": -98.07939400000001,
     "iata:airline": "DL",
     "iata:base_airline": "",
+    "icao:aircraft": "B763",
     "icao:airline": "DAL",
     "icao:base_airline": "AMX",
     "lbl:latitude": 37.614676,
     "lbl:longitude": -122.38248,
+    "sfomuseum:aircraft_id": 1159289965,
     "sfomuseum:airline_id": 1159284261,
     "sfomuseum:arrival_id": 102527513,
     "sfomuseum:base_flight_id": "20221114-A-AMX-3547",
@@ -39,6 +43,10 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-approach"
+    ],
+    "swim:tail_number": "N193DN",
     "wof:belongsto": [
       1763588121,
       102527513,
@@ -53,6 +61,9 @@
       1763588175,
       102085387
     ],
+    "wof:concordances": {
+      "swim:gufi": "KN05161300"
+    },
     "wof:country": "US",
     "wof:created": 1668528470,
     "wof:geomhash": "ba4d31d1826c6198b5ffa8fdb1249c5d",
@@ -86,13 +97,14 @@
     ],
     "wof:id": 1796630673,
     "wof:involves": [
-      102527513,
-      102534365,
       1159284261,
       1763588247,
-      1159283539
+      1159283539,
+      1159289965,
+      102527513,
+      102534365
     ],
-    "wof:lastmodified": 1668528470,
+    "wof:lastmodified": 1668529737,
     "wof:name": "DL314 (JFK-SFO)",
     "wof:parent_id": 1763588247,
     "wof:placetype": "custom",

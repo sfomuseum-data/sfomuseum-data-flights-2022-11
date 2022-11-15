@@ -2,10 +2,12 @@
   "id": 1796632953,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2022-11-15",
+    "date:cessation_upper": "2022-11-15",
     "date:inception_lower": "2022-11-14",
     "date:inception_upper": "2022-11-14",
-    "edtf:cessation": "",
-    "edtf:inception": "2022-11-14",
+    "edtf:cessation": "2022-11-15T00:55:41Z",
+    "edtf:inception": "2022-11-14T20:28:00Z",
     "flysfo:actual_timestamp": -1,
     "flysfo:airline": "AC",
     "flysfo:base_airline": "",
@@ -53,6 +55,9 @@
       1763588123,
       102085387
     ],
+    "wof:concordances": {
+      "swim:flight_ref": "19070273"
+    },
     "wof:country": "US",
     "wof:created": 1668529047,
     "wof:geomhash": "1a30ef2f5f82135186aeb20f0187ac62",
@@ -92,7 +97,7 @@
       1763588153,
       1159283697
     ],
-    "wof:lastmodified": 1668529047,
+    "wof:lastmodified": 1668529739,
     "wof:name": "AC740 (SFO-YYZ)",
     "wof:parent_id": 1763588153,
     "wof:placetype": "custom",
