@@ -2,10 +2,12 @@
   "id": 1796643757,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2022-11-15",
+    "date:cessation_upper": "2022-11-15",
     "date:inception_lower": "2022-11-15",
     "date:inception_upper": "2022-11-15",
-    "edtf:cessation": "",
-    "edtf:inception": "2022-11-15",
+    "edtf:cessation": "2022-11-15T23:32:29Z",
+    "edtf:inception": "2022-11-15T20:20:00Z",
     "flysfo:actual_timestamp": -1,
     "flysfo:airline": "UA",
     "flysfo:date": "2022-11-15",
@@ -21,9 +23,11 @@
     "geom:latitude": 34.342595,
     "geom:longitude": -110.09992299999999,
     "iata:airline": "UA",
+    "icao:aircraft": "B77W",
     "icao:airline": "UAL",
     "lbl:latitude": 37.620818,
     "lbl:longitude": -122.389182,
+    "sfomuseum:aircraft_id": 1159289993,
     "sfomuseum:airline_id": 1159285413,
     "sfomuseum:arrival_id": 102527513,
     "sfomuseum:departure_id": 102530435,
@@ -34,6 +38,11 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-route",
+      "swim-path"
+    ],
+    "swim:tail_number": "N2140U",
     "wof:belongsto": [
       1763588121,
       102527513,
@@ -48,6 +57,10 @@
       1763588269,
       102085387
     ],
+    "wof:concordances": {
+      "swim:flight_ref": "19213262",
+      "swim:gufi": "KF56813300"
+    },
     "wof:country": "US",
     "wof:created": 1668615206,
     "wof:geomhash": "935b51b2101b5a3f6ccca5be45ab8b73",
@@ -81,12 +94,13 @@
     ],
     "wof:id": 1796643757,
     "wof:involves": [
+      1159289993,
       102527513,
       102530435,
       1159285413,
       1763588317
     ],
-    "wof:lastmodified": 1668615206,
+    "wof:lastmodified": 1668616186,
     "wof:name": "UA2586 (GRK-SFO)",
     "wof:parent_id": 1763588317,
     "wof:placetype": "custom",
