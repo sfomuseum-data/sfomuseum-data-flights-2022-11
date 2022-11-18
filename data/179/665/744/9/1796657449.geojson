@@ -2,10 +2,12 @@
   "id": 1796657449,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2022-11-17",
+    "date:cessation_upper": "2022-11-17",
     "date:inception_lower": "2022-11-17",
     "date:inception_upper": "2022-11-17",
-    "edtf:cessation": "",
-    "edtf:inception": "2022-11-17",
+    "edtf:cessation": "2022-11-17T05:26:25-08:00",
+    "edtf:inception": "2022-11-17T11:26:00Z",
     "flysfo:actual_timestamp": -1,
     "flysfo:airline": "UA",
     "flysfo:date": "2022-11-17",
@@ -21,9 +23,11 @@
     "geom:latitude": 25.5509395,
     "geom:longitude": 11.213139500000004,
     "iata:airline": "UA",
+    "icao:aircraft": "B772",
     "icao:airline": "UAL",
     "lbl:latitude": 37.61799,
     "lbl:longitude": -122.370943,
+    "sfomuseum:aircraft_id": 1159289985,
     "sfomuseum:airline_id": 1159285413,
     "sfomuseum:arrival_id": 102527513,
     "sfomuseum:departure_id": 102535777,
@@ -34,6 +38,12 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-route",
+      "swim-path",
+      "swim-approach"
+    ],
+    "swim:tail_number": "N37018",
     "wof:belongsto": [
       1763588121,
       102527513,
@@ -48,6 +58,10 @@
       1763588369,
       102085387
     ],
+    "wof:concordances": {
+      "swim:flight_ref": "19362925",
+      "swim:gufi": "KO71701500"
+    },
     "wof:country": "US",
     "wof:created": 1668788043,
     "wof:geomhash": "cfb34c2f58cdf1c02ffeb00ec136aa4c",
@@ -81,12 +95,13 @@
     ],
     "wof:id": 1796657449,
     "wof:involves": [
+      1159289985,
       102527513,
       102535777,
       1159285413,
       1763588463
     ],
-    "wof:lastmodified": 1668788043,
+    "wof:lastmodified": 1668789058,
     "wof:name": "UA2805 (GUM-SFO)",
     "wof:parent_id": 1763588463,
     "wof:placetype": "custom",

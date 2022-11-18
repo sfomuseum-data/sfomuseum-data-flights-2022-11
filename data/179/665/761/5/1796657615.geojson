@@ -2,10 +2,12 @@
   "id": 1796657615,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2022-11-18",
+    "date:cessation_upper": "2022-11-18",
     "date:inception_lower": "2022-11-17",
     "date:inception_upper": "2022-11-17",
-    "edtf:cessation": "",
-    "edtf:inception": "2022-11-17",
+    "edtf:cessation": "2022-11-18T00:36:54Z",
+    "edtf:inception": "2022-11-17T20:11:15Z",
     "flysfo:actual_timestamp": -1,
     "flysfo:airline": "UA",
     "flysfo:base_airline": "",
@@ -53,6 +55,9 @@
       1763588269,
       102085387
     ],
+    "wof:concordances": {
+      "swim:flight_ref": "19407967"
+    },
     "wof:country": "US",
     "wof:created": 1668788084,
     "wof:geomhash": "1ad63fa22de9103ed4396c0ca683f63f",
@@ -92,7 +97,7 @@
       1763588337,
       1159283597
     ],
-    "wof:lastmodified": 1668788084,
+    "wof:lastmodified": 1668789059,
     "wof:name": "UA724 (HNL-SFO)",
     "wof:parent_id": 1763588337,
     "wof:placetype": "custom",

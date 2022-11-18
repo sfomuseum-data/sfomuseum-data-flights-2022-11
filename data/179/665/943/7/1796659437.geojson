@@ -2,10 +2,12 @@
   "id": 1796659437,
   "type": "Feature",
   "properties": {
-    "date:inception_lower": "2022-11-17",
-    "date:inception_upper": "2022-11-17",
-    "edtf:cessation": "",
-    "edtf:inception": "2022-11-17",
+    "date:cessation_lower": "2022-11-18",
+    "date:cessation_upper": "2022-11-18",
+    "date:inception_lower": "2022-11-18",
+    "date:inception_upper": "2022-11-18",
+    "edtf:cessation": "2022-11-18T09:36:08Z",
+    "edtf:inception": "2022-11-18T05:09:00Z",
     "flysfo:actual_timestamp": -1,
     "flysfo:airline": "DL",
     "flysfo:base_airline": "",
@@ -24,10 +26,12 @@
     "geom:longitude": -98.07939400000001,
     "iata:airline": "DL",
     "iata:base_airline": "",
+    "icao:aircraft": "B763",
     "icao:airline": "DAL",
     "icao:base_airline": "VIR",
     "lbl:latitude": 37.614676,
     "lbl:longitude": -122.38248,
+    "sfomuseum:aircraft_id": 1159289965,
     "sfomuseum:airline_id": 1159284261,
     "sfomuseum:arrival_id": 102534365,
     "sfomuseum:base_flight_id": "20221117-D-VIR-4762",
@@ -39,6 +43,12 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-route",
+      "swim-path",
+      "swim-takeoff"
+    ],
+    "swim:tail_number": "N197DN",
     "wof:belongsto": [
       1763588121,
       102527513,
@@ -53,6 +63,10 @@
       1763588175,
       102085387
     ],
+    "wof:concordances": {
+      "swim:flight_ref": "19338689",
+      "swim:gufi": "KO11163600"
+    },
     "wof:country": "US",
     "wof:created": 1668788554,
     "wof:geomhash": "1348792a172720778d3219cc18ccd8ee",
@@ -86,13 +100,14 @@
     ],
     "wof:id": 1796659437,
     "wof:involves": [
+      1763588247,
+      1159285483,
+      1159289965,
       102534365,
       102527513,
-      1159284261,
-      1763588247,
-      1159285483
+      1159284261
     ],
-    "wof:lastmodified": 1668788554,
+    "wof:lastmodified": 1668789054,
     "wof:name": "DL325 (SFO-JFK)",
     "wof:parent_id": 1763588247,
     "wof:placetype": "custom",
