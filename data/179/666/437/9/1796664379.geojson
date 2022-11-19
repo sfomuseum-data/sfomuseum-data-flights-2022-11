@@ -2,10 +2,12 @@
   "id": 1796664379,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2022-11-18",
+    "date:cessation_upper": "2022-11-18",
     "date:inception_lower": "2022-11-18",
     "date:inception_upper": "2022-11-18",
-    "edtf:cessation": "",
-    "edtf:inception": "2022-11-18",
+    "edtf:cessation": "2022-11-18T06:01:57-08:00",
+    "edtf:inception": "2022-11-18T19:43:00Z",
     "flysfo:actual_timestamp": -1,
     "flysfo:airline": "UA",
     "flysfo:date": "2022-11-18",
@@ -21,9 +23,11 @@
     "geom:latitude": 34.726444,
     "geom:longitude": -114.37882099999999,
     "iata:airline": "UA",
+    "icao:aircraft": "B77W",
     "icao:airline": "UAL",
     "lbl:latitude": 37.620818,
     "lbl:longitude": -122.389182,
+    "sfomuseum:aircraft_id": 1159289993,
     "sfomuseum:airline_id": 1159285413,
     "sfomuseum:arrival_id": 102527513,
     "sfomuseum:departure_id": 102527643,
@@ -34,6 +38,11 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-path",
+      "swim-approach"
+    ],
+    "swim:tail_number": "N2140U",
     "wof:belongsto": [
       1763588121,
       102527513,
@@ -48,6 +57,10 @@
       1763588269,
       102085387
     ],
+    "wof:concordances": {
+      "swim:flight_ref": "19411139",
+      "swim:gufi": "KA57908600"
+    },
     "wof:country": "US",
     "wof:created": 1668874396,
     "wof:geomhash": "3b34defe59c802fafb1391b3a4fe7af8",
@@ -84,9 +97,10 @@
       102527513,
       102527643,
       1159285413,
-      1763588317
+      1763588317,
+      1159289993
     ],
-    "wof:lastmodified": 1668874396,
+    "wof:lastmodified": 1668875382,
     "wof:name": "UA2586 (BIF-SFO)",
     "wof:parent_id": 1763588317,
     "wof:placetype": "custom",
