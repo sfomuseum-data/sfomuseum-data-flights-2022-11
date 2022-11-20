@@ -2,10 +2,12 @@
   "id": 1796674273,
   "type": "Feature",
   "properties": {
-    "date:inception_lower": "2022-11-19",
-    "date:inception_upper": "2022-11-19",
-    "edtf:cessation": "",
-    "edtf:inception": "2022-11-19",
+    "date:cessation_lower": "2022-11-20",
+    "date:cessation_upper": "2022-11-20",
+    "date:inception_lower": "2022-11-20",
+    "date:inception_upper": "2022-11-20",
+    "edtf:cessation": "2022-11-20T08:03:00Z",
+    "edtf:inception": "2022-11-20T02:58:00Z",
     "flysfo:actual_timestamp": -1,
     "flysfo:airline": "UA",
     "flysfo:base_airline": "",
@@ -24,10 +26,12 @@
     "geom:longitude": -140.1446795,
     "iata:airline": "UA",
     "iata:base_airline": "",
+    "icao:aircraft": "B738",
     "icao:airline": "UAL",
     "icao:base_airline": "ACA",
     "lbl:latitude": 37.619425,
     "lbl:longitude": -122.384028,
+    "sfomuseum:aircraft_id": 1159289871,
     "sfomuseum:airline_id": 1159285413,
     "sfomuseum:arrival_id": 102533997,
     "sfomuseum:base_flight_id": "20221119-D-ACA-3507",
@@ -39,6 +43,10 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-route",
+      "swim-path"
+    ],
     "wof:belongsto": [
       1763588121,
       102527513,
@@ -53,6 +61,10 @@
       1763588269,
       102085387
     ],
+    "wof:concordances": {
+      "swim:flight_ref": "19481012",
+      "swim:gufi": "KO02823100"
+    },
     "wof:country": "US",
     "wof:created": 1668961611,
     "wof:geomhash": "ff961493fc59fc665836e174da62aa8e",
@@ -86,13 +98,14 @@
     ],
     "wof:id": 1796674273,
     "wof:involves": [
+      1159289871,
       102533997,
       102527513,
       1159285413,
       1763588357,
       1159283597
     ],
-    "wof:lastmodified": 1668961611,
+    "wof:lastmodified": 1668961779,
     "wof:name": "UA300 (SFO-HNL)",
     "wof:parent_id": 1763588357,
     "wof:placetype": "custom",
