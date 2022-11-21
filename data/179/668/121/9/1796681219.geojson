@@ -2,10 +2,12 @@
   "id": 1796681219,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2022-11-21",
+    "date:cessation_upper": "2022-11-21",
     "date:inception_lower": "2022-11-20",
     "date:inception_upper": "2022-11-20",
-    "edtf:cessation": "",
-    "edtf:inception": "2022-11-20",
+    "edtf:cessation": "2022-11-21T03:04:00Z",
+    "edtf:inception": "2022-11-20T10:07:26-08:00",
     "flysfo:actual_timestamp": -1,
     "flysfo:airline": "UA",
     "flysfo:date": "2022-11-20",
@@ -21,9 +23,11 @@
     "geom:latitude": 35.780291500000004,
     "geom:longitude": -120.38022649999999,
     "iata:airline": "UA",
+    "icao:aircraft": "B772",
     "icao:airline": "UAL",
     "lbl:latitude": 37.620244,
     "lbl:longitude": -122.387813,
+    "sfomuseum:aircraft_id": 1159289985,
     "sfomuseum:airline_id": 1159285413,
     "sfomuseum:arrival_id": 102533795,
     "sfomuseum:departure_id": 102527513,
@@ -34,6 +38,11 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-path",
+      "swim-takeoff"
+    ],
+    "swim:tail_number": "N209UA",
     "wof:belongsto": [
       1763588121,
       102527513,
@@ -48,6 +57,9 @@
       1763588269,
       102085387
     ],
+    "wof:concordances": {
+      "swim:gufi": "KO82341100"
+    },
     "wof:country": "US",
     "wof:created": 1669048070,
     "wof:geomhash": "602be2a828e3460cadf44be5b1c2e36b",
@@ -81,12 +93,13 @@
     ],
     "wof:id": 1796681219,
     "wof:involves": [
-      102533795,
       102527513,
       1159285413,
-      1763588307
+      1763588307,
+      1159289985,
+      102533795
     ],
-    "wof:lastmodified": 1669048070,
+    "wof:lastmodified": 1669048240,
     "wof:name": "UA2565 (SFO-LAX)",
     "wof:parent_id": 1763588307,
     "wof:placetype": "custom",
