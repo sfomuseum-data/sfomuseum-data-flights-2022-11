@@ -2,10 +2,12 @@
   "id": 1796688881,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2022-11-22",
+    "date:cessation_upper": "2022-11-22",
     "date:inception_lower": "2022-11-21",
     "date:inception_upper": "2022-11-21",
-    "edtf:cessation": "",
-    "edtf:inception": "2022-11-21",
+    "edtf:cessation": "2022-11-22T02:53:00Z",
+    "edtf:inception": "2022-11-21T01:38:00Z",
     "flysfo:actual_timestamp": -1,
     "flysfo:airline": "DL",
     "flysfo:base_airline": "",
@@ -24,10 +26,12 @@
     "geom:longitude": -117.1757545,
     "iata:airline": "DL",
     "iata:base_airline": "",
+    "icao:aircraft": "A319",
     "icao:airline": "DAL",
     "icao:base_airline": "AFR",
     "lbl:latitude": 37.614944,
     "lbl:longitude": -122.383123,
+    "sfomuseum:aircraft_id": 1159289407,
     "sfomuseum:airline_id": 1159284261,
     "sfomuseum:arrival_id": 102527363,
     "sfomuseum:base_flight_id": "20221121-D-AFR-2903",
@@ -39,6 +43,12 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-route",
+      "swim-path",
+      "swim-takeoff"
+    ],
+    "swim:tail_number": "N327NB",
     "wof:belongsto": [
       1763588121,
       102527513,
@@ -53,6 +63,10 @@
       1763588175,
       102085387
     ],
+    "wof:concordances": {
+      "swim:flight_ref": "19612064",
+      "swim:gufi": "KO02164300"
+    },
     "wof:country": "US",
     "wof:created": 1669134096,
     "wof:geomhash": "b2ae00b77ffd1072a2eb4148779a5d9e",
@@ -86,13 +100,14 @@
     ],
     "wof:id": 1796688881,
     "wof:involves": [
+      1159289407,
       102527363,
       102527513,
       1159284261,
       1763588237,
       1159283627
     ],
-    "wof:lastmodified": 1669134096,
+    "wof:lastmodified": 1669134610,
     "wof:name": "DL1352 (SFO-SLC)",
     "wof:parent_id": 1763588237,
     "wof:placetype": "custom",

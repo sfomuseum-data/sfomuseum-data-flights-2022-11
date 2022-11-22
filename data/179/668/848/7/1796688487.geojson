@@ -2,10 +2,12 @@
   "id": 1796688487,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2022-11-22",
+    "date:cessation_upper": "2022-11-22",
     "date:inception_lower": "2022-11-21",
     "date:inception_upper": "2022-11-21",
-    "edtf:cessation": "",
-    "edtf:inception": "2022-11-21",
+    "edtf:cessation": "2022-11-22T00:49:00Z",
+    "edtf:inception": "2022-11-21T21:45:00Z",
     "flysfo:actual_timestamp": -1,
     "flysfo:airline": "AS",
     "flysfo:base_airline": "",
@@ -53,6 +55,9 @@
       1763588123,
       102085387
     ],
+    "wof:concordances": {
+      "swim:flight_ref": "19671323"
+    },
     "wof:country": "US",
     "wof:created": 1669133985,
     "wof:geomhash": "a08c5b1a6c329f228ec453404f254a51",
@@ -92,7 +97,7 @@
       1763588143,
       1159286259
     ],
-    "wof:lastmodified": 1669133985,
+    "wof:lastmodified": 1669134598,
     "wof:name": "AS117 (SFO-DAL)",
     "wof:parent_id": 1763588143,
     "wof:placetype": "custom",

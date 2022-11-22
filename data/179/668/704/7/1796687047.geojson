@@ -2,10 +2,12 @@
   "id": 1796687047,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2022-11-21",
+    "date:cessation_upper": "2022-11-21",
     "date:inception_lower": "2022-11-21",
     "date:inception_upper": "2022-11-21",
-    "edtf:cessation": "",
-    "edtf:inception": "2022-11-21",
+    "edtf:cessation": "2022-11-21T11:25:02Z",
+    "edtf:inception": "2022-11-21T06:50:00Z",
     "flysfo:actual_timestamp": -1,
     "flysfo:airline": "UA",
     "flysfo:date": "2022-11-21",
@@ -21,9 +23,11 @@
     "geom:latitude": 29.475248999999998,
     "geom:longitude": -140.1446795,
     "iata:airline": "UA",
+    "icao:aircraft": "B772",
     "icao:airline": "UAL",
     "lbl:latitude": 37.617321,
     "lbl:longitude": -122.389477,
+    "sfomuseum:aircraft_id": 1159289985,
     "sfomuseum:airline_id": 1159285413,
     "sfomuseum:arrival_id": 102527513,
     "sfomuseum:departure_id": 102533997,
@@ -48,6 +52,10 @@
       1763588369,
       102085387
     ],
+    "wof:concordances": {
+      "swim:flight_ref": "19614552",
+      "swim:gufi": "KO35994200"
+    },
     "wof:country": "US",
     "wof:created": 1669133621,
     "wof:geomhash": "1ad63fa22de9103ed4396c0ca683f63f",
@@ -81,12 +89,13 @@
     ],
     "wof:id": 1796687047,
     "wof:involves": [
-      102527513,
       102533997,
       1159285413,
-      1763588437
+      1763588437,
+      1159289985,
+      102527513
     ],
-    "wof:lastmodified": 1669133621,
+    "wof:lastmodified": 1669134607,
     "wof:name": "UA362 (HNL-SFO)",
     "wof:parent_id": 1763588437,
     "wof:placetype": "custom",
