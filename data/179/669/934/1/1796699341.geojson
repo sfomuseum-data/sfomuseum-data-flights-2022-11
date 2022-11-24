@@ -2,10 +2,12 @@
   "id": 1796699341,
   "type": "Feature",
   "properties": {
-    "date:inception_lower": "2022-11-23",
-    "date:inception_upper": "2022-11-23",
-    "edtf:cessation": "",
-    "edtf:inception": "2022-11-23",
+    "date:cessation_lower": "2022-11-23",
+    "date:cessation_upper": "2022-11-23",
+    "date:inception_lower": "2022-11-24",
+    "date:inception_upper": "2022-11-24",
+    "edtf:cessation": "2022-11-23T07:29:32Z",
+    "edtf:inception": "2022-11-24T06:13:00Z",
     "flysfo:actual_timestamp": -1,
     "flysfo:airline": "AS",
     "flysfo:base_airline": "",
@@ -24,10 +26,12 @@
     "geom:longitude": -122.484166,
     "iata:airline": "AS",
     "iata:base_airline": "",
+    "icao:aircraft": "B739",
     "icao:airline": "ASA",
     "icao:base_airline": "BAW",
     "lbl:latitude": 37.617908,
     "lbl:longitude": -122.381084,
+    "sfomuseum:aircraft_id": 1377564285,
     "sfomuseum:airline_id": 1159283813,
     "sfomuseum:arrival_id": 102527513,
     "sfomuseum:base_flight_id": "20221123-A-BAW-2985",
@@ -39,6 +43,12 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-route",
+      "swim-path",
+      "swim-approach"
+    ],
+    "swim:tail_number": "N282AK",
     "wof:belongsto": [
       1763588121,
       102527513,
@@ -53,6 +63,9 @@
       1763588123,
       102085387
     ],
+    "wof:concordances": {
+      "swim:flight_ref": "19784006"
+    },
     "wof:country": "US",
     "wof:created": 1669306007,
     "wof:geomhash": "3af422147b92e6fa9912d38a57ea404a",
@@ -90,9 +103,10 @@
       102532251,
       1159283813,
       1763588149,
-      1159284021
+      1159284021,
+      1377564285
     ],
-    "wof:lastmodified": 1669306007,
+    "wof:lastmodified": 1669307455,
     "wof:name": "AS544 (PDX-SFO)",
     "wof:parent_id": 1763588149,
     "wof:placetype": "custom",

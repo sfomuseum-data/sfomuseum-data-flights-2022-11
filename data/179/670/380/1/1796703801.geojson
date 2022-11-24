@@ -2,10 +2,12 @@
   "id": 1796703801,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2022-11-24",
+    "date:cessation_upper": "2022-11-24",
     "date:inception_lower": "2022-11-23",
     "date:inception_upper": "2022-11-23",
-    "edtf:cessation": "",
-    "edtf:inception": "2022-11-23",
+    "edtf:cessation": "2022-11-24T00:34:00Z",
+    "edtf:inception": "2022-11-23T23:26:00Z",
     "flysfo:actual_timestamp": -1,
     "flysfo:airline": "WN",
     "flysfo:date": "2022-11-23",
@@ -48,6 +50,9 @@
       1763588175,
       102085387
     ],
+    "wof:concordances": {
+      "swim:flight_ref": "19857962"
+    },
     "wof:country": "US",
     "wof:created": 1669307176,
     "wof:geomhash": "25f5345529d944df781e36098260a435",
@@ -86,7 +91,7 @@
       1159285591,
       1763588185
     ],
-    "wof:lastmodified": 1669307176,
+    "wof:lastmodified": 1669307469,
     "wof:name": "WN4654 (SFO-SAN)",
     "wof:parent_id": 1763588185,
     "wof:placetype": "custom",

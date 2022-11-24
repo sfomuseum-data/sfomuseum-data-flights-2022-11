@@ -2,10 +2,12 @@
   "id": 1796700829,
   "type": "Feature",
   "properties": {
-    "date:inception_lower": "2022-11-23",
-    "date:inception_upper": "2022-11-23",
-    "edtf:cessation": "",
-    "edtf:inception": "2022-11-23",
+    "date:cessation_lower": "2022-11-23",
+    "date:cessation_upper": "2022-11-23",
+    "date:inception_lower": "2022-11-24",
+    "date:inception_upper": "2022-11-24",
+    "edtf:cessation": "2022-11-23T12:59:49-08:00",
+    "edtf:inception": "2022-11-24T03:55:00Z",
     "flysfo:actual_timestamp": -1,
     "flysfo:airline": "UA",
     "flysfo:base_airline": "",
@@ -24,10 +26,12 @@
     "geom:longitude": -122.79198650000001,
     "iata:airline": "UA",
     "iata:base_airline": "",
+    "icao:aircraft": "A320",
     "icao:airline": "UAL",
     "icao:base_airline": "CMP",
     "lbl:latitude": 37.618678,
     "lbl:longitude": -122.385955,
+    "sfomuseum:aircraft_id": 1159292085,
     "sfomuseum:airline_id": 1159285413,
     "sfomuseum:arrival_id": 102527513,
     "sfomuseum:base_flight_id": "20221123-A-CMP-1131",
@@ -39,6 +43,12 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-route",
+      "swim-path",
+      "swim-approach"
+    ],
+    "swim:tail_number": "N457UA",
     "wof:belongsto": [
       1763588121,
       102527513,
@@ -53,6 +63,10 @@
       1763588269,
       102085387
     ],
+    "wof:concordances": {
+      "swim:flight_ref": "19777653",
+      "swim:gufi": "KS04448500"
+    },
     "wof:country": "US",
     "wof:created": 1669306394,
     "wof:geomhash": "68b06bbd791163721a20ab955d143e55",
@@ -86,13 +100,14 @@
     ],
     "wof:id": 1796700829,
     "wof:involves": [
+      1763588279,
+      1159284211,
+      1159292085,
       102527513,
       102533927,
-      1159285413,
-      1763588279,
-      1159284211
+      1159285413
     ],
-    "wof:lastmodified": 1669306394,
+    "wof:lastmodified": 1669307454,
     "wof:name": "UA1920 (EUG-SFO)",
     "wof:parent_id": 1763588279,
     "wof:placetype": "custom",
