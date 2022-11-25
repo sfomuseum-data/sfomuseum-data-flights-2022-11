@@ -2,10 +2,12 @@
   "id": 1796708875,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2022-11-25",
+    "date:cessation_upper": "2022-11-25",
     "date:inception_lower": "2022-11-24",
     "date:inception_upper": "2022-11-24",
-    "edtf:cessation": "",
-    "edtf:inception": "2022-11-24",
+    "edtf:cessation": "2022-11-25T01:13:00Z",
+    "edtf:inception": "2022-11-24T23:38:00Z",
     "flysfo:actual_timestamp": -1,
     "flysfo:airline": "F9",
     "flysfo:date": "2022-11-24",
@@ -48,6 +50,9 @@
       1763588369,
       102085387
     ],
+    "wof:concordances": {
+      "swim:flight_ref": "19939427"
+    },
     "wof:country": "US",
     "wof:created": 1669393123,
     "wof:geomhash": "2a19f056fd5d16c52f22f1bf5dc85c9c",
@@ -86,7 +91,7 @@
       1159284401,
       1763588425
     ],
-    "wof:lastmodified": 1669393123,
+    "wof:lastmodified": 1669393511,
     "wof:name": "F92790 (SFO-PHX)",
     "wof:parent_id": 1763588425,
     "wof:placetype": "custom",

@@ -2,10 +2,12 @@
   "id": 1796708545,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2022-11-25",
+    "date:cessation_upper": "2022-11-25",
     "date:inception_lower": "2022-11-24",
     "date:inception_upper": "2022-11-24",
-    "edtf:cessation": "",
-    "edtf:inception": "2022-11-24",
+    "edtf:cessation": "2022-11-25T00:56:39Z",
+    "edtf:inception": "2022-11-24T19:44:00Z",
     "flysfo:actual_timestamp": -1,
     "flysfo:airline": "AS",
     "flysfo:base_airline": "",
@@ -24,10 +26,12 @@
     "geom:longitude": -139.40440999999998,
     "iata:airline": "AS",
     "iata:base_airline": "",
+    "icao:aircraft": "B738",
     "icao:airline": "ASA",
     "icao:base_airline": "AAL",
     "lbl:latitude": 37.617532,
     "lbl:longitude": -122.382384,
+    "sfomuseum:aircraft_id": 1159289871,
     "sfomuseum:airline_id": 1159283813,
     "sfomuseum:arrival_id": 102532929,
     "sfomuseum:base_flight_id": "20221124-D-AAL-7437",
@@ -39,6 +43,11 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-path",
+      "swim-takeoff"
+    ],
+    "swim:tail_number": "N562AS",
     "wof:belongsto": [
       1763588121,
       102527513,
@@ -86,13 +95,14 @@
     ],
     "wof:id": 1796708545,
     "wof:involves": [
+      1763588157,
+      1159283849,
+      1159289871,
       102532929,
       102527513,
-      1159283813,
-      1763588157,
-      1159283849
+      1159283813
     ],
-    "wof:lastmodified": 1669393040,
+    "wof:lastmodified": 1669393510,
     "wof:name": "AS743 (SFO-OGG)",
     "wof:parent_id": 1763588157,
     "wof:placetype": "custom",
