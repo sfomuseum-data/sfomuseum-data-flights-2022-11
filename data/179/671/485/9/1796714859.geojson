@@ -2,10 +2,12 @@
   "id": 1796714859,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2022-11-26",
+    "date:cessation_upper": "2022-11-26",
     "date:inception_lower": "2022-11-25",
     "date:inception_upper": "2022-11-25",
-    "edtf:cessation": "",
-    "edtf:inception": "2022-11-25",
+    "edtf:cessation": "2022-11-26T02:50:31Z",
+    "edtf:inception": "2022-11-25T21:34:00Z",
     "flysfo:actual_timestamp": -1,
     "flysfo:airline": "DL",
     "flysfo:date": "2022-11-25",
@@ -21,9 +23,11 @@
     "geom:latitude": 38.7414645,
     "geom:longitude": -113.521581,
     "iata:airline": "DL",
+    "icao:aircraft": "BCS1",
     "icao:airline": "DAL",
     "lbl:latitude": 37.61799,
     "lbl:longitude": -122.370943,
+    "sfomuseum:aircraft_id": 1528104583,
     "sfomuseum:airline_id": 1159284261,
     "sfomuseum:arrival_id": 102531189,
     "sfomuseum:departure_id": 102527513,
@@ -34,7 +38,17 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-route",
+      "swim-path",
+      "swim-takeoff"
+    ],
+    "swim:tail_number": "N137DU",
     "wof:belongsto": [],
+    "wof:concordances": {
+      "swim:flight_ref": "20020223",
+      "swim:gufi": "KO74428600"
+    },
     "wof:country": "US",
     "wof:created": 1669479638,
     "wof:geomhash": "976937653dbac6c9c27dd23670ba89bf",
@@ -45,12 +59,12 @@
     ],
     "wof:id": 1796714859,
     "wof:involves": [
+      1528104583,
       102531189,
       102527513,
-      1159284261,
-      -1
+      1159284261
     ],
-    "wof:lastmodified": 1669479638,
+    "wof:lastmodified": 1669480151,
     "wof:name": "DL9962 (SFO-DEN)",
     "wof:parent_id": -1,
     "wof:placetype": "custom",
