@@ -2,10 +2,12 @@
   "id": 1796728285,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2022-11-28",
+    "date:cessation_upper": "2022-11-28",
     "date:inception_lower": "2022-11-27",
     "date:inception_upper": "2022-11-27",
-    "edtf:cessation": "",
-    "edtf:inception": "2022-11-27",
+    "edtf:cessation": "2022-11-28T04:18:51Z",
+    "edtf:inception": "2022-11-27T23:44:00Z",
     "flysfo:actual_timestamp": -1,
     "flysfo:airline": "CI",
     "flysfo:date": "2022-11-27",
@@ -21,9 +23,11 @@
     "geom:latitude": 49.395798,
     "geom:longitude": -136.169672,
     "iata:airline": "CI",
+    "icao:aircraft": "B744",
     "icao:airline": "CAL",
     "lbl:latitude": 37.61799,
     "lbl:longitude": -122.370943,
+    "sfomuseum:aircraft_id": 1159289915,
     "sfomuseum:airline_id": 1159284153,
     "sfomuseum:arrival_id": 102531979,
     "sfomuseum:departure_id": 102527513,
@@ -34,7 +38,15 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-route",
+      "swim-path"
+    ],
+    "swim:tail_number": "B18718",
     "wof:belongsto": [],
+    "wof:concordances": {
+      "swim:flight_ref": "20201614"
+    },
     "wof:country": "US",
     "wof:created": 1669652519,
     "wof:geomhash": "24c5d8bcd340273688237ae435bbe348",
@@ -45,12 +57,12 @@
     ],
     "wof:id": 1796728285,
     "wof:involves": [
+      1159289915,
       102531979,
       102527513,
-      1159284153,
-      -1
+      1159284153
     ],
-    "wof:lastmodified": 1669652519,
+    "wof:lastmodified": 1669653080,
     "wof:name": "CI5129 (SFO-ANC)",
     "wof:parent_id": -1,
     "wof:placetype": "custom",

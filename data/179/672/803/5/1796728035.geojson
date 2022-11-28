@@ -2,10 +2,12 @@
   "id": 1796728035,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2022-11-27",
+    "date:cessation_upper": "2022-11-27",
     "date:inception_lower": "2022-11-27",
     "date:inception_upper": "2022-11-27",
-    "edtf:cessation": "",
-    "edtf:inception": "2022-11-27",
+    "edtf:cessation": "2022-11-27T20:45:02Z",
+    "edtf:inception": "2022-11-27T15:48:00Z",
     "flysfo:actual_timestamp": -1,
     "flysfo:airline": "AS",
     "flysfo:date": "2022-11-27",
@@ -21,9 +23,11 @@
     "geom:latitude": 31.846425,
     "geom:longitude": -101.2547305,
     "iata:airline": "AS",
+    "icao:aircraft": "B739",
     "icao:airline": "ASA",
     "lbl:latitude": 37.61756,
     "lbl:longitude": -122.381052,
+    "sfomuseum:aircraft_id": 1377564285,
     "sfomuseum:airline_id": 1159283813,
     "sfomuseum:arrival_id": 102530841,
     "sfomuseum:departure_id": 102527513,
@@ -34,6 +38,12 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-route",
+      "swim-path",
+      "swim-takeoff"
+    ],
+    "swim:tail_number": "N282AK",
     "wof:belongsto": [
       1763588121,
       102527513,
@@ -84,9 +94,10 @@
       102530841,
       102527513,
       1159283813,
-      1763588143
+      1763588143,
+      1377564285
     ],
-    "wof:lastmodified": 1669652448,
+    "wof:lastmodified": 1669653079,
     "wof:name": "AS346 (SFO-FLL)",
     "wof:parent_id": 1763588143,
     "wof:placetype": "custom",
