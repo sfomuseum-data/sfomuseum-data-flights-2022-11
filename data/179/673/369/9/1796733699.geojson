@@ -2,10 +2,12 @@
   "id": 1796733699,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2022-11-28",
+    "date:cessation_upper": "2022-11-28",
     "date:inception_lower": "2022-11-28",
     "date:inception_upper": "2022-11-28",
-    "edtf:cessation": "",
-    "edtf:inception": "2022-11-28",
+    "edtf:cessation": "2022-11-28T15:31:44Z",
+    "edtf:inception": "2022-11-28T03:53:00Z",
     "flysfo:actual_timestamp": -1,
     "flysfo:airline": "UA",
     "flysfo:date": "2022-11-28",
@@ -48,6 +50,9 @@
       1763588369,
       102085387
     ],
+    "wof:concordances": {
+      "swim:flight_ref": "20216460"
+    },
     "wof:country": "US",
     "wof:created": 1669738446,
     "wof:geomhash": "07839d38a937070012f963bfe77eb5da",
@@ -86,7 +91,7 @@
       1159285413,
       1763588441
     ],
-    "wof:lastmodified": 1669738446,
+    "wof:lastmodified": 1669739475,
     "wof:name": "UA3030 (AKL-SFO)",
     "wof:parent_id": 1763588441,
     "wof:placetype": "custom",
