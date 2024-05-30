@@ -48,6 +48,7 @@
     "wof:geomhash": "62f9f5a2734b9c5938b0b415e9e4a515",
     "wof:hierarchy": [
       {
+        "custom_id": 1796719511,
         "flight_id": 1796719511
       }
     ],
@@ -58,11 +59,13 @@
       102521851,
       1159285413
     ],
-    "wof:lastmodified": 1669566668,
+    "wof:lastmodified": 1717041812,
     "wof:name": "UA1582 (AUS-SFO)",
     "wof:parent_id": -1,
     "wof:placetype": "custom",
-    "wof:placetype_alt": "flight",
+    "wof:placetype_alt": [
+      "flight"
+    ],
     "wof:repo": "sfomuseum-data-flights-2022-11",
     "wof:superseded_by": [],
     "wof:supersedes": []

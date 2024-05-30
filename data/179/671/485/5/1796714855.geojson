@@ -49,6 +49,7 @@
     "wof:geomhash": "2a19f056fd5d16c52f22f1bf5dc85c9c",
     "wof:hierarchy": [
       {
+        "custom_id": 1796714855,
         "flight_id": 1796714855
       }
     ],
@@ -59,11 +60,13 @@
       102527513,
       1159284261
     ],
-    "wof:lastmodified": 1669480151,
+    "wof:lastmodified": 1717041808,
     "wof:name": "DL8944 (SFO-PHX)",
     "wof:parent_id": -1,
     "wof:placetype": "custom",
-    "wof:placetype_alt": "flight",
+    "wof:placetype_alt": [
+      "flight"
+    ],
     "wof:repo": "sfomuseum-data-flights-2022-11",
     "wof:superseded_by": [],
     "wof:supersedes": []

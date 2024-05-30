@@ -53,6 +53,7 @@
     "wof:geomhash": "40576486fbb454d3a66da49d62a0ae33",
     "wof:hierarchy": [
       {
+        "custom_id": 1796623487,
         "flight_id": 1796623487
       }
     ],
@@ -63,11 +64,13 @@
       102531979,
       1159284153
     ],
-    "wof:lastmodified": 1668443363,
+    "wof:lastmodified": 1717041797,
     "wof:name": "CI6768 (ANC-SFO)",
     "wof:parent_id": -1,
     "wof:placetype": "custom",
-    "wof:placetype_alt": "flight",
+    "wof:placetype_alt": [
+      "flight"
+    ],
     "wof:repo": "sfomuseum-data-flights-2022-11",
     "wof:superseded_by": [],
     "wof:supersedes": []

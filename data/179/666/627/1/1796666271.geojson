@@ -40,6 +40,7 @@
     "wof:geomhash": "3d19e2486afc236330c096bb1f630ba3",
     "wof:hierarchy": [
       {
+        "custom_id": 1796666271,
         "flight_id": 1796666271
       }
     ],
@@ -50,11 +51,13 @@
       1159284261,
       -1
     ],
-    "wof:lastmodified": 1668874890,
+    "wof:lastmodified": 1717041807,
     "wof:name": "DL399 (SFO-MFR)",
     "wof:parent_id": -1,
     "wof:placetype": "custom",
-    "wof:placetype_alt": "flight",
+    "wof:placetype_alt": [
+      "flight"
+    ],
     "wof:repo": "sfomuseum-data-flights-2022-11",
     "wof:superseded_by": [],
     "wof:supersedes": []

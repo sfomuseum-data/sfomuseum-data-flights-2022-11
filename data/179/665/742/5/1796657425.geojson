@@ -40,6 +40,7 @@
     "wof:geomhash": "7234ec6a531feff2a579809344df7e67",
     "wof:hierarchy": [
       {
+        "custom_id": 1796657425,
         "flight_id": 1796657425
       }
     ],
@@ -50,11 +51,13 @@
       1159285413,
       -1
     ],
-    "wof:lastmodified": 1668788037,
+    "wof:lastmodified": 1717041807,
     "wof:name": "UA2581 (TCM-SFO)",
     "wof:parent_id": -1,
     "wof:placetype": "custom",
-    "wof:placetype_alt": "flight",
+    "wof:placetype_alt": [
+      "flight"
+    ],
     "wof:repo": "sfomuseum-data-flights-2022-11",
     "wof:superseded_by": [],
     "wof:supersedes": []

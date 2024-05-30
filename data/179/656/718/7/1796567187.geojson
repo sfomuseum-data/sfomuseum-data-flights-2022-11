@@ -53,6 +53,7 @@
     "wof:geomhash": "9e57705c73bd73668d4b0d529a043646",
     "wof:hierarchy": [
       {
+        "custom_id": 1796567187,
         "flight_id": 1796567187
       }
     ],
@@ -63,11 +64,13 @@
       102527513,
       1159284261
     ],
-    "wof:lastmodified": 1667752038,
+    "wof:lastmodified": 1717041800,
     "wof:name": "DL8843 (SFO-SJC)",
     "wof:parent_id": -1,
     "wof:placetype": "custom",
-    "wof:placetype_alt": "flight",
+    "wof:placetype_alt": [
+      "flight"
+    ],
     "wof:repo": "sfomuseum-data-flights-2022-11",
     "wof:superseded_by": [],
     "wof:supersedes": []

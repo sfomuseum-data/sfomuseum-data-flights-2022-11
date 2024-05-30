@@ -54,6 +54,7 @@
     "wof:geomhash": "998e7b0d931c2ad5e41dcc1541aaab60",
     "wof:hierarchy": [
       {
+        "custom_id": 1796729741,
         "flight_id": 1796729741
       }
     ],
@@ -64,11 +65,13 @@
       102527513,
       1159285413
     ],
-    "wof:lastmodified": 1669653092,
+    "wof:lastmodified": 1717041812,
     "wof:name": "UA2747 (SFO-SIN)",
     "wof:parent_id": -1,
     "wof:placetype": "custom",
-    "wof:placetype_alt": "flight",
+    "wof:placetype_alt": [
+      "flight"
+    ],
     "wof:repo": "sfomuseum-data-flights-2022-11",
     "wof:superseded_by": [],
     "wof:supersedes": []

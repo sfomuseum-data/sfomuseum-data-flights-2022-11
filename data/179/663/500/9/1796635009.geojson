@@ -59,6 +59,7 @@
     "wof:geomhash": "b700d5ae3794da4176af6b85f6cd6669",
     "wof:hierarchy": [
       {
+        "custom_id": 1796635009,
         "flight_id": 1796635009
       }
     ],
@@ -70,11 +71,13 @@
       1159283597,
       1159292085
     ],
-    "wof:lastmodified": 1668529744,
+    "wof:lastmodified": 1717041800,
     "wof:name": "UA2047 (SFO-SNA)",
     "wof:parent_id": -1,
     "wof:placetype": "custom",
-    "wof:placetype_alt": "flight",
+    "wof:placetype_alt": [
+      "flight"
+    ],
     "wof:repo": "sfomuseum-data-flights-2022-11",
     "wof:superseded_by": [],
     "wof:supersedes": []

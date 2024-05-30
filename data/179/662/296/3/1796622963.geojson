@@ -45,6 +45,7 @@
     "wof:geomhash": "376248592ab7850cfb9a479529cc5caf",
     "wof:hierarchy": [
       {
+        "custom_id": 1796622963,
         "flight_id": 1796622963
       }
     ],
@@ -56,11 +57,13 @@
       -1,
       1159286015
     ],
-    "wof:lastmodified": 1668441892,
+    "wof:lastmodified": 1717041796,
     "wof:name": "NZ9178 (IAD-SFO)",
     "wof:parent_id": -1,
     "wof:placetype": "custom",
-    "wof:placetype_alt": "flight",
+    "wof:placetype_alt": [
+      "flight"
+    ],
     "wof:repo": "sfomuseum-data-flights-2022-11",
     "wof:superseded_by": [],
     "wof:supersedes": []

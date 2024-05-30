@@ -45,6 +45,7 @@
     "wof:geomhash": "b700d5ae3794da4176af6b85f6cd6669",
     "wof:hierarchy": [
       {
+        "custom_id": 1796572769,
         "flight_id": 1796572769
       }
     ],
@@ -56,11 +57,13 @@
       -1,
       1159283597
     ],
-    "wof:lastmodified": 1667837848,
+    "wof:lastmodified": 1717041798,
     "wof:name": "AC4332 (SFO-SNA)",
     "wof:parent_id": -1,
     "wof:placetype": "custom",
-    "wof:placetype_alt": "flight",
+    "wof:placetype_alt": [
+      "flight"
+    ],
     "wof:repo": "sfomuseum-data-flights-2022-11",
     "wof:superseded_by": [],
     "wof:supersedes": []

@@ -53,6 +53,7 @@
     "wof:geomhash": "1c4ce661f6692034a082b31062a17f5e",
     "wof:hierarchy": [
       {
+        "custom_id": 1796729917,
         "flight_id": 1796729917
       }
     ],
@@ -63,11 +64,13 @@
       1159289939,
       102528817
     ],
-    "wof:lastmodified": 1669653085,
+    "wof:lastmodified": 1717041812,
     "wof:name": "UA8247 (SFO-IAD)",
     "wof:parent_id": -1,
     "wof:placetype": "custom",
-    "wof:placetype_alt": "flight",
+    "wof:placetype_alt": [
+      "flight"
+    ],
     "wof:repo": "sfomuseum-data-flights-2022-11",
     "wof:superseded_by": [],
     "wof:supersedes": []

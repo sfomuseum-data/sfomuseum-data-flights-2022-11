@@ -58,6 +58,7 @@
     "wof:geomhash": "b03a18c879ef85a5ca01fa93c99f372c",
     "wof:hierarchy": [
       {
+        "custom_id": 1796736747,
         "flight_id": 1796736747
       }
     ],
@@ -69,11 +70,13 @@
       102527513,
       1159285413
     ],
-    "wof:lastmodified": 1669739483,
+    "wof:lastmodified": 1717041810,
     "wof:name": "UA1702 (SFO-MCI)",
     "wof:parent_id": -1,
     "wof:placetype": "custom",
-    "wof:placetype_alt": "flight",
+    "wof:placetype_alt": [
+      "flight"
+    ],
     "wof:repo": "sfomuseum-data-flights-2022-11",
     "wof:superseded_by": [],
     "wof:supersedes": []

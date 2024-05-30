@@ -53,6 +53,7 @@
     "wof:geomhash": "f37bb0d4440f783813012050dc474231",
     "wof:hierarchy": [
       {
+        "custom_id": 1796540321,
         "flight_id": 1796540321
       }
     ],
@@ -63,11 +64,13 @@
       1159285227,
       1159289871
     ],
-    "wof:lastmodified": 1667410408,
+    "wof:lastmodified": 1717041796,
     "wof:name": "SY3084 (SFO-LAL)",
     "wof:parent_id": -1,
     "wof:placetype": "custom",
-    "wof:placetype_alt": "flight",
+    "wof:placetype_alt": [
+      "flight"
+    ],
     "wof:repo": "sfomuseum-data-flights-2022-11",
     "wof:superseded_by": [],
     "wof:supersedes": []
